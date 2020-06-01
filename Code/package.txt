@@ -1,0 +1,11 @@
+beautifulsoup4
+datetime
+ipaddress
+numpy
+pandas
+python-whois
+regex
+requests
+scikit-learn
+tldextract
+wordsegment
