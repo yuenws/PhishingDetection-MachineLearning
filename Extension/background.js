@@ -3,7 +3,7 @@ chrome.contextMenus.onClicked.addListener(function (word){
   //chrome.tabs.create({url: query});
   var xhr=new XMLHttpRequest();
   var markup = "url="+query;
-  xhr.open("POST","http://localhost/FYP/Code/clientServer.php",false);
+  xhr.open("POST"," /*update your own localhost path*/ ",false);
   xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
   xhr.send(markup);
   //alert(markup)
