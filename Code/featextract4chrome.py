@@ -9,8 +9,8 @@ import wordsegment
 import re
 import tldextract
 
-LOCALHOST_PATH = "D:/xampp/htdocs/FYP/"
-DIRECTORY_NAME = "Code"
+LOCALHOST_PATH = " " #update your own path
+DIRECTORY_NAME = " " #update your own path
 
 def having_ip_address(url):
     count=0
